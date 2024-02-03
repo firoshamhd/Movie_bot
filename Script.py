@@ -4,7 +4,7 @@ class script(object):
 Mʏ Nᴀᴍᴇ Is {bot}.
 
 I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Jᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ</b>"""
-    
+
     HELP_TXT = "Hᴇʏ {}\nHᴇʀᴇ Mꜱ Mʏ Hᴇʟᴩ"
 
     ABOUT_TXT = """ 
@@ -36,9 +36,9 @@ I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ
 
 <b>⪼ EG:</b>
 </code>/batch https://t.me/firosshamuhammad https://t.me/firossh</code>"""
-  
+
     FILTER_TXT = "Sᴇʟᴇᴄᴛ Wʜɪᴄʜ Oɴᴇ Yᴏᴜ Wᴀɴᴛ...✨"
-    
+
     GLOBALFILTER_TXT = """<b>Hᴇʟᴘ Fᴏʀ Gʟᴏʙᴀʟ Fɪʟᴛᴇʀs</b>
 
 <i>Fɪʟᴛᴇʀ Is Tʜᴇ Fᴇᴀᴛᴜʀᴇ Wᴇʀᴇ Usᴇʀs Cᴀɴ Sᴇᴛ Aᴜᴛᴏᴍᴀᴛᴇᴅ Rᴇᴘʟɪᴇs Fᴏʀ A Pᴀʀᴛɪᴄᴜʟᴀʀ Kᴇʏᴡᴏʀᴅ Aɴᴅ Bᴏᴛ  Wɪʟʟ Rᴇsᴘᴏɴᴅ Wʜᴇɴᴇᴠᴇʀ A Kᴇʏᴡᴏʀᴅ Is Fᴏᴜɴᴅ Tʜᴇ Mᴇssᴀɢᴇ</i>
@@ -97,10 +97,10 @@ Tʜɪs Mᴏᴅᴜʟᴇ Oɴʟʏ Wᴏʀᴋs Fᴏʀ Mʏ Aᴅᴍɪɴs
 • /set_template - Sᴇᴛ Iᴍᴅʙ Tᴇᴍᴘʟᴀᴛᴇ Fᴏʀ Yᴏᴜʀ Gʀᴏᴜᴘ 
 • /get_template - Gᴇᴛ Cᴜʀʀᴇɴᴛ Iᴍᴅʙ Tᴇᴍᴘʟᴀᴛᴇ Fᴏʀ Yᴏᴜʀ Gʀᴏᴜᴘ"""
 
-    PROGRAMMER_TXT = """ ❃𓊈𒆜Oᴡɴᴇʀ Dᴇᴛᴀɪʟꜱ𒆜𓊉❃   
+    PROGRAMMER_TXT = """ ❃𓊈𒆜Oᴡɴᴇʀ Dᴇᴛᴀɪʟꜱ𒆜𓊉❃   
 ◈ ᴛɢ ɴᴀᴍᴇ : <a href=https://t.me/firossha>❃𓊈𒆜FIROS 𒆜𓊉❃</a>
 ◈ ɴɪᴄᴋɴᴀᴍᴇ : ™ᴩʀᴏɢʀᴀᴍᴍᴇʀ™
-◈ ᴜꜱᴇʀɴᴀᴍᴇ : @firossha
+◈ ᴜꜱᴇʀɴᴀᴍᴇ : @firossha
 ◈ ʀᴇᴀʟɴᴀᴍᴇ : ғɪʀᴏs
 ‿︵‿︵‿︵‿୨❤୧‿︵‿︵‿︵‿ """
 
@@ -145,7 +145,7 @@ Tʜɪs Mᴏᴅᴜʟᴇ Oɴʟʏ Wᴏʀᴋs Fᴏʀ Mʏ Aᴅᴍɪɴs
 ◉ ᴛᴏᴛᴀʟ ᴄʜᴀᴛꜱ: <code>{}</code>
 ◉ ᴜꜱᴇᴅ ᴅʙ ꜱɪᴢᴇ: <code>{}</code>
 ◉ ꜰᴇᴇᴇ ᴅʙ ꜱɪᴢᴇ: <code>{}</code></b>"""
-   
+
     ST_TXT ="""/stickerid ʀᴇᴩʟᴀʏ ᴛᴏ ᴀɴʏ ꜱᴛɪᴄᴋᴇʀ ᴏʀ ᴍᴇᴅɪᴀ ᴛᴏ ɢᴇᴛ ɪᴅ"""
 
     LOG_TEXT_G = """<b>#ɴᴇᴡ_ɢʀᴏᴜᴩ
@@ -157,7 +157,7 @@ Tʜɪs Mᴏᴅᴜʟᴇ Oɴʟʏ Wᴏʀᴋs Fᴏʀ Mʏ Aᴅᴍɪɴs
 ◉ ᴀᴅᴅᴇᴅ ʙʏ: {e}
 
 ◉ ʙʏ: @{f}</b>"""
-  
+
     LOG_TEXT_P = """#ɴᴇᴡ_ᴜꜱᴇʀ
     
 ◉ ᴜꜱᴇʀ-ɪᴅ: <code>{}</code>
@@ -165,7 +165,7 @@ Tʜɪs Mᴏᴅᴜʟᴇ Oɴʟʏ Wᴏʀᴋs Fᴏʀ Mʏ Aᴅᴍɪɴs
 ◉ ᴜꜱᴇʀɴᴀᴍᴇ: @{}
 
 ◉ ʙʏ: @{}</b>"""
-  
+
     GROUPMANAGER_TXT = """<b>Hᴇʟᴩ Fᴏʀ GʀᴏᴜᴩMᴀɴᴀɢᴇʀ</b>
 
 <i>Tʜɪꜱ Iꜱ Hᴇʟᴩ Oꜰ Yᴏᴜʀ Gʀᴏᴜᴩ Mᴀɴᴀɢɪɴɢ. Tʜɪꜱ Wɪʟʟ Wᴏʀᴋ Oɴʟʏ Fᴏʀ Gʀᴏᴜᴩ aᴅᴍɪɴꜱ</i>"""
@@ -221,7 +221,7 @@ Tʜɪs Mᴏᴅᴜʟᴇ Oɴʟʏ Wᴏʀᴋs Fᴏʀ Mʏ Aᴅᴍɪɴs
     EXTRAMOD_TXT = """<b>Hᴇʟᴩ Fᴏʀ Exᴛʀᴀ Mᴏᴅᴜʟᴇ</b>
 
 <i>Jᴜꜱᴛ Sᴇɴᴅ Aɴʏ Iᴍᴀɢᴇ Tᴏ Eᴅɪᴛ Iᴍᴀɢᴇ ✨</i>"""
-   
+
     ID_TXT = """<b>Cᴏᴍᴍᴀɴᴅꜱ & Uꜱᴀɢᴇ:</b>
 • /id - Gᴇᴛ Iᴅ Oғ A Sᴘᴇᴄɪғᴇᴅ Usᴇʀ"""
 
@@ -259,9 +259,9 @@ Tʜɪs Mᴏᴅᴜʟᴇ Oɴʟʏ Wᴏʀᴋs Fᴏʀ Mʏ Aᴅᴍɪɴs
 • /video [ɴᴀᴍᴇ] / [ᴜʀʟ] - ᴛᴏ ꜱᴇᴀʀᴄʜ ᴀɴᴅ ᴅᴏᴡɴʟᴏᴀᴅ ᴛʜᴇ ʏᴏᴜᴛᴜʙᴇ ᴠɪᴅᴇᴏ.
 •ɪ ʀᴇᴄᴏᴍᴍᴇɴᴅ ʏᴏᴜ ᴛᴏ ᴜꜱᴇ ᴛʜᴇ ᴜʀʟ ɪɴꜱᴛᴇᴅ ᴏꜰ ɴᴀᴍᴇ
 •ɪꜰ ʏᴏᴜ ᴜꜱᴇ ᴛʜᴇ ɴᴀᴍᴇ ᴛʜᴇ ᴩʀᴏᴄᴇꜱꜱ ᴡɪʟʟ ʙᴇ ᴠᴇʀʀʏ ꜱʟᴏᴡ"""
-    
+
     CREATOR_REQUIRED = "❗<b>Yᴏᴜ Hᴀᴠᴇ To Bᴇ Tʜᴇ Gʀᴏᴜᴩ Cʀᴇᴀᴛᴏʀ Tᴏ Dᴏ Tʜᴀᴛ</b>"
-    
+
     FUN_TXT = "ꜱᴏᴍᴇ ꜰᴜɴ ᴇʟᴇᴍᴇɴᴛꜱ ᴀʀᴇ ʜᴇʀᴇ"
 
     DISE_TXT = "/dise - ᴜꜱɪɴɢ ᴛʜɪꜱ ʏᴏᴜ ᴄᴀɴ ʀᴏʟʟ ᴛʜᴇ ᴅɪꜱᴇ ᴡɪᴛʜᴏᴜᴛ ᴅɪꜱᴇ"
@@ -269,17 +269,17 @@ Tʜɪs Mᴏᴅᴜʟᴇ Oɴʟʏ Wᴏʀᴋs Fᴏʀ Mʏ Aᴅᴍɪɴs
     TOSS_TXT = "/toss - ᴜꜱɪɴɢ ᴛʜɪꜱ ʏᴏᴜ ᴄᴀɴ ᴛᴏꜱꜱ ᴀ ᴄᴏɪ  ᴡɪᴛʜᴏᴜᴛ ᴄᴏɪɴ"
 
     INPUT_REQUIRED = "❗ **Aʀɢᴜᴍᴇɴ Rqᴜɪʀᴇᴅ**"
-      
+
     KICKED = "✔️ Sᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ Kɪᴄᴋᴇᴅ {} Mᴇᴍʙᴇʀꜱ Acᴄᴏʀᴅɪɴɢ To Tʜᴇ Aʀɢᴜᴍᴇɴᴛꜱ Prᴏᴠɪᴅᴇᴅ"
-      
+
     START_KICK = "Rᴇᴍᴏᴠɪɴɢ Iɴᴀᴄᴛɪᴠᴇ Mᴇᴍʙᴇʀs Tʜɪs Mᴀʏ Tᴀᴋᴇ A Wʜɪʟᴇ"
-      
+
     ADMIN_REQUIRED = "❗<b>Iᴀᴍ Nᴏᴛ Aᴅᴍɪɴ Iɴ Tʜɪꜱ Cʜᴀᴛ Sᴏ Pʟᴇᴀꜱᴇ Aᴅᴅ Mᴇ Aɢᴀɪɴ Wɪᴛʜ Aʟʟ Pᴅᴍɪɴ Pᴇʀᴍɪꜱꜱɪᴏɴ</b>"
-      
+
     DKICK = "✔️ Kɪᴄᴋᴇᴅ {} Dᴇʟᴇᴛᴇᴅ Aᴄᴄᴏᴜɴᴛꜱ Sᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ"
-      
+
     FETCHING_INFO = "<b>Wᴀɪᴛ I Wɪʟʟ Tᴀᴋᴇ Tʜᴇ Aʟʟ Iɴꜰᴏ</b>"
-   
+
     SERVER_STATS = """Sᴇʀᴠᴇʀ Sᴛᴀᴛꜱ:
  
 Uᴩᴛɪᴍᴇ: {}
@@ -288,30 +288,51 @@ RAM Uꜱᴀɢᴇ: {}%
 Tᴏᴛᴀʟ Dɪꜱᴋ: {}
 Uꜱᴇᴅ Dɪꜱᴋ: {} ({}%)
 Fʀᴇᴇ Dɪꜱᴋ: {}"""
-    
+
     BUTTON_LOCK_TEXT = "Hᴇʏ {query}\nTʜɪꜱ Iꜱ Nᴏᴛ Fᴏʀ Yᴏᴜ. Sᴇᴀʀᴄʜ Yᴏᴜʀ Sᴇʟꜰ"
-   
+
     FORCE_SUB_TEXT = "Sᴏʀʀʏ Bʀᴏ Yᴏᴜʀ Nᴏᴛ Jᴏɪɴᴇᴅ Mʏ Cʜᴀɴɴᴇʟ Sᴏ Pʟᴇᴀsᴇ Cʟɪᴄᴋ Jᴏɪɴ Bᴜᴛᴛᴏɴ Tᴏ Jᴏɪɴ Mʏ Cʜᴀɴɴᴇʟ Aɴᴅ Tʀʏ Aɢᴀɪɴ"
-   
+
     WELCOM_TEXT = """Hᴇʏ {user} 💞
 
 Wᴇʟᴄᴏᴍᴇ ᴛᴏ {chat}.
 
 ꜱʜᴀʀᴇ & ꜱᴜᴩᴩᴏʀᴛ, ʀᴇqᴜᴇꜱᴛ ʏᴏᴜ ᴡᴀɴᴛᴇᴅ ᴍᴏᴠɪᴇꜱ"""
-  
+
     IMDB_TEMPLATE = """<b>Qᴜᴇʀʏ: {query}</b>
 
 🏷 Tɪᴛʟᴇ: <a href={url}>{title}</a>
 🎭 Gᴇɴʀᴇꜱ: {genres}
 📆 Yᴇᴀʀ: <a href={url}/releaseinfo>{year}</a>
 🌟 Rᴀᴛɪɴɢ: <a href={url}/ratings>{rating}</a>/10"""
-   
-  
- 
 
 
-   
-  
- 
+    YTT_TXT ="""/ytthumb - ᴜꜱɪɴɢ ᴛʜɪꜱ ʏᴏᴜ ᴄᴀɴ ᴅᴏᴡɴʟᴏᴀᴅ ᴛʜᴇ ᴛʜᴜᴍʙɴᴀɪʟ ᴏꜰ ᴀ ʏᴏᴜᴛᴜʙᴇ ᴠɪᴅᴇᴏ.
+\n♻️  𝗘𝘅𝗮𝗺𝗽𝗹𝗲:
+
+/ytthumb https://youtu.be/6A49rH9grzk"""
+
+    COUNTRY_TXT="""/country - ᴜꜱɪɴɢ ᴛʜɪꜱ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴛʜᴇ ɢᴇɴᴇʀᴀʟ ᴅᴇᴛᴀɪʟꜱ ᴏꜰ ᴀ ᴄᴏᴜɴᴛʀʏ
+\n♻️  𝗘𝘅𝗮𝗺𝗽𝗹𝗲:
+
+/country India"""
+
+    TRANS_TXT="""𝙶𝙾𝙶𝙶𝙻𝙴 𝚃𝚁𝙰𝙽𝚂𝙻𝙰𝚃𝙴𝚁
+
+𝚃𝙷𝙸𝚂 𝙼𝙾𝙳𝚄𝙻𝙴 𝙲𝙾𝙽𝚅𝙴𝚁𝚃 𝚃𝙴𝚇𝚃 𝚃𝙾 𝙰 𝚂𝙿𝙴𝙲𝙸𝙵𝙸𝙲 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴.
+
+➤ 𝐂𝐨𝐦𝐦𝐚𝐧𝐝:
+
+Reply any text with /tr
+
+➤ 𝖤𝗑𝖺𝗆𝗉𝗅𝖾: /𝗍𝗋 𝗆𝗅
+• 𝖾𝗇 = 𝖤𝗇𝗀𝗅𝗂𝗌𝗁
+• 𝗆𝗅 = 𝖬𝖺𝗅𝖺𝗒𝖺𝗅𝖺𝗆
+• 𝗁𝗂 = 𝖧𝗂𝗇𝖽𝗂"""
+
+    PASSWD_TXT="""/genpassword - ᴜꜱɪɴɢ ᴛʜɪꜱ ʏᴏᴜ ᴄᴀɴ ɢᴇɴᴇʀᴀᴛᴇ ʀᴀɴᴅᴏᴍ ᴩᴀꜱꜱᴡᴏʀᴅꜱ"""
+
+
+
 
 
