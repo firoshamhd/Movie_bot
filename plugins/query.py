@@ -604,15 +604,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ʏᴛ ᴠɪᴅᴇᴏ','l'),
             InlineKeyboardButton('ʏᴛ ᴀᴜᴅɪᴏ','m'),
             InlineKeyboardButton('ʏᴛ ᴛʜᴜᴍʙ','ytt')
-        ],[
-            InlineKeyboardButton('ᴄᴏᴜɴᴛʀʏ','country'),
-            InlineKeyboardButton('ᴛʀᴀɴꜱʟᴀᴛᴇ','trans'),
-            InlineKeyboardButton('ᴩᴀꜱꜱᴡᴏʀᴅ','passwd')
-        ],[
-            InlineKeyboardButton('« ʙᴀᴄᴋ', 'extmod'),
-            InlineKeyboardButton('🏠ʜᴏᴍᴇ','start'),
-            InlineKeyboardButton('ᴄʟᴏꜱᴇ','close_data')    
-        ]]
+         ]]
         await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.PASSWD_TXT, enums.ParseMode.HTML), reply_markup=InlineKeyboardMarkup(buttons))
 
     elif query.data == "trans":
