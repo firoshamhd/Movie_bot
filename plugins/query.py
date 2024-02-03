@@ -577,7 +577,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "firos":
         buttons = [[
-            InlineKeyboardButton('ꜱᴛɪᴄᴋᴇʀ ɪᴅ','st'),
+           InlineKeyboardButton('ꜱᴛɪᴄᴋᴇʀ ɪᴅ','st'),
             nlineKeyboardButton('ᴛᴏꜱꜱ','toss'),
             InlineKeyboardButton('ᴅɪꜱᴇ','dise')
         ],[
@@ -590,6 +590,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴩᴀꜱꜱᴡᴏʀᴅ','passwd')
         ],[
             InlineKeyboardButton('« ʙᴀᴄᴋ', 'extmod'),
+            InlineKeyboardButton('🏠ʜᴏᴍᴇ','start'),
             InlineKeyboardButton('ᴄʟᴏꜱᴇ','close_data')    
         ]]
         await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.EXTRAMOD2_TXT, enums.ParseMode.HTML),reply_markup=InlineKeyboardMarkup(buttons))
