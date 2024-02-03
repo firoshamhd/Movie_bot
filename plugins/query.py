@@ -571,7 +571,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[
             InlineKeyboardButton('« ʙᴀᴄᴋ', 'help'),
             InlineKeyboardButton('ᴄʟᴏꜱᴇ','close_data'),
-            InlineKeyboardButton('⪼ ɴᴇxᴛ ', 'firos')           
+            InlineKeyboardButton('⪼ ɴᴇxᴛ ', 'st')           
         ]]
         await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.EXTRAMOD_TXT, enums.ParseMode.HTML),reply_markup=InlineKeyboardMarkup(buttons))
 
