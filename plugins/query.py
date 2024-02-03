@@ -569,36 +569,71 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ꜰᴏɴᴛ', 'j'),
             InlineKeyboardButton('ꜱʜᴀʀᴇ', 'k')
         ],[
-            InlineKeyboardButton('ꜱᴛɪᴄᴋᴇʀ ɪᴅ','st'),
-            InlineKeyboardButton('ʏᴛ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ','yt'),
-            InlineKeyboardButton('ꜰᴜɴ ᴢᴏɴᴇ','fun')
-        ],[
-            InlineKeyboardButton('✘ Cʟᴏꜱᴇ', 'close_data'),
-            InlineKeyboardButton('« Bᴀᴄᴋ', 'help')           
+            InlineKeyboardButton('« ʙᴀᴄᴋ', 'help'),
+            InlineKeyboardButton('ᴄʟᴏꜱᴇ','close_data'),
+            InlineKeyboardButton('⪼ ɴᴇxᴛ ', 'extmod2')           
         ]]
-        await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.EXTRAMOD_TXT, enums.ParseMode.HTML),             reply_markup=InlineKeyboardMarkup(buttons))
-      
-    elif query.data == "fun":
+        await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.EXTRAMOD_TXT, enums.ParseMode.HTML),reply_markup=InlineKeyboardMarkup(buttons))
+
+    elif query.data == "extmod2":
         buttons = [[
-            InlineKeyboardButton('🎲ᴅɪꜱᴇ','dise'),
-            InlineKeyboardButton('🪙ᴛᴏꜱꜱ','toss')
+            InlineKeyboardButton('ꜱᴛɪᴄᴋᴇʀ ɪᴅ','st'),
+            nlineKeyboardButton('ᴛᴏꜱꜱ','toss'),
+            InlineKeyboardButton('ᴅɪꜱᴇ','dise')
         ],[
-            InlineKeyboardButton('✘ Cʟᴏꜱᴇ', 'close_data'),
-            InlineKeyboardButton('« Bᴀᴄᴋ', 'extmod')           
+            InlineKeyboardButton('ʏᴛ ᴠɪᴅᴇᴏ','l'),
+            InlineKeyboardButton('ʏᴛ ᴀᴜᴅɪᴏ','m'),
+            InlineKeyboardButton('ʏᴛ ᴛʜᴜᴍʙ','ytt')
+        ],[
+            InlineKeyboardButton('ᴄᴏᴜɴᴛʀʏ','country'),
+            InlineKeyboardButton('ᴛʀᴀɴꜱʟᴀᴛᴇ','trans'),
+            InlineKeyboardButton('ᴩᴀꜱꜱᴡᴏʀᴅ','passwd')
+        ],[
+            InlineKeyboardButton('« ʙᴀᴄᴋ', 'extmod'),
+            InlineKeyboardButton('🏠ʜᴏᴍᴇ','start'),
+            InlineKeyboardButton('ᴄʟᴏꜱᴇ','close_data')    
         ]]
-        await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.FUN_TXT, enums.ParseMode.HTML), reply_markup=InlineKeyboardMarkup(buttons))
+        await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.EXTRAMOD_TXT, enums.ParseMode.HTML),reply_markup=InlineKeyboardMarkup(buttons))
+
+    elif query.data == "passwd":
+        buttons = [[
+            InlineKeyboardButton('✘ Cʟᴏꜱᴇ', 'close_data'),
+            InlineKeyboardButton('« Bᴀᴄᴋ', 'extmod2')           
+        ]]
+        await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.PASSWD_TXT, enums.ParseMode.HTML), reply_markup=InlineKeyboardMarkup(buttons))
+
+    elif query.data == "trans":
+        buttons = [[
+            InlineKeyboardButton('✘ Cʟᴏꜱᴇ', 'close_data'),
+            InlineKeyboardButton('« Bᴀᴄᴋ', 'extmod2')           
+        ]]
+        await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.TRANS_TXT, enums.ParseMode.HTML), reply_markup=InlineKeyboardMarkup(buttons))
+
+    elif query.data == "country":
+        buttons = [[
+            InlineKeyboardButton('✘ Cʟᴏꜱᴇ', 'close_data'),
+            InlineKeyboardButton('« Bᴀᴄᴋ', 'extmod2')           
+        ]]
+        await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.COUNTRY_TXT, enums.ParseMode.HTML), reply_markup=InlineKeyboardMarkup(buttons))
+
+    elif query.data == "ytt":
+        buttons = [[
+            InlineKeyboardButton('✘ Cʟᴏꜱᴇ', 'close_data'),
+            InlineKeyboardButton('« Bᴀᴄᴋ', 'extmod2')           
+        ]]
+        await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.YTT_TXT, enums.ParseMode.HTML), reply_markup=InlineKeyboardMarkup(buttons))
 
     elif query.data == "dise":
         buttons = [[
             InlineKeyboardButton('✘ Cʟᴏꜱᴇ', 'close_data'),
-            InlineKeyboardButton('« Bᴀᴄᴋ', 'fun')           
+            InlineKeyboardButton('« Bᴀᴄᴋ', 'extmod2')           
         ]]
         await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.DISE_TXT, enums.ParseMode.HTML), reply_markup=InlineKeyboardMarkup(buttons))
 
     elif query.data == "toss":
         buttons = [[
             InlineKeyboardButton('✘ Cʟᴏꜱᴇ', 'close_data'),
-            InlineKeyboardButton('« Bᴀᴄᴋ', 'fun')           
+            InlineKeyboardButton('« Bᴀᴄᴋ', 'extmod2')           
         ]]
         await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.TOSS_TXT, enums.ParseMode.HTML), reply_markup=InlineKeyboardMarkup(buttons))
 
@@ -689,31 +724,21 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "st":
         buttons = [[
             InlineKeyboardButton('✘ Cʟᴏꜱᴇ', 'close_data'),
-            InlineKeyboardButton('« Bᴀᴄᴋ', 'extmod')           
+            InlineKeyboardButton('« Bᴀᴄᴋ', 'extmod2')           
         ]]
         await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.ST_TXT, enums.ParseMode.HTML), reply_markup=InlineKeyboardMarkup(buttons))
-
-    elif query.data == "yt":
-        buttons = [[
-            InlineKeyboardButton('VIDEO', 'l'),
-            InlineKeyboardButton('SONG', 'm')
-        ],[
-            InlineKeyboardButton('✘ Cʟᴏꜱᴇ', 'close_data'),
-            InlineKeyboardButton('« Bᴀᴄᴋ', 'extmod')           
-        ]]
-        await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.YOUTUBE_TXT, enums.ParseMode.HTML), reply_markup=InlineKeyboardMarkup(buttons))
 
     elif query.data == "l":
         buttons = [[
             InlineKeyboardButton('✘ Cʟᴏꜱᴇ', 'close_data'),
-            InlineKeyboardButton('« Bᴀᴄᴋ', 'yt')           
+            InlineKeyboardButton('« Bᴀᴄᴋ', 'extmod2')           
         ]]
         await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.VIDEO_TXT, enums.ParseMode.HTML), reply_markup=InlineKeyboardMarkup(buttons))
 
     elif query.data == "m":
         buttons = [[
             InlineKeyboardButton('✘ Cʟᴏꜱᴇ', 'close_data'),
-            InlineKeyboardButton('« Bᴀᴄᴋ', 'yt')           
+            InlineKeyboardButton('« Bᴀᴄᴋ', 'extmod2')           
         ]]
         await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.SONG_TXT, enums.ParseMode.HTML), reply_markup=InlineKeyboardMarkup(buttons))
          
