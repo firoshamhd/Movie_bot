@@ -571,7 +571,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[
             InlineKeyboardButton('« ʙᴀᴄᴋ', 'help'),
             InlineKeyboardButton('ᴄʟᴏꜱᴇ','close_data'),
-            InlineKeyboardButton('⪼ ɴᴇxᴛ ', 'st')           
+            InlineKeyboardButton('⪼ ɴᴇxᴛ ', 'firos')           
         ]]
         await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.EXTRAMOD_TXT, enums.ParseMode.HTML),reply_markup=InlineKeyboardMarkup(buttons))
 
@@ -590,7 +590,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴩᴀꜱꜱᴡᴏʀᴅ','passwd')
         ],[
             InlineKeyboardButton('« ʙᴀᴄᴋ', 'extmod'),
-            InlineKeyboardButton('🏠ʜᴏᴍᴇ','start'),
             InlineKeyboardButton('ᴄʟᴏꜱᴇ','close_data')    
         ]]
         await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.EXTRAMOD2_TXT, enums.ParseMode.HTML),reply_markup=InlineKeyboardMarkup(buttons))
