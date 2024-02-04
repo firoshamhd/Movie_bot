@@ -1,5 +1,5 @@
 from info import SUPPORT_GROUP, SUPPORT_LINK, OPENAI_API
-from pyrogram import Client, filters, enums
+from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from openai import OpenAI
 
@@ -16,11 +16,11 @@ async def ask_question(client, message):
         return await message.reply("This command only working in support group.", reply_markup=InlineKeyboardMarkup(btn))
     try:
         text = message.text.split(" ", 1)[1]
-    except:
+    except IndexError:
         return await message.reply_text("Command Incomplete!\nUsage: /openai your_question")
     msg = await message.reply("Searching...")
     try:
-        response = ai_client.chat.completions.create(
+        response = await ai_client.chat.completions.create(
             messages=[
                 {"role": "user", "content": text}
             ],
