@@ -15,7 +15,13 @@ API_ID = int(environ['API_ID'])
 API_HASH = environ['API_HASH']
 TOSS=(environ.get('PICS','https://graph.org/file/93fd874d803bc33cfb625.jpg https://graph.org/file/50c74a43b806c2d1bb649.jpg')).split()
 BOT_TOKEN = environ['BOT_TOKEN']
-
+#AI setup
+#id of support group eg :'-1002033580386'
+SUPPORT_GROUP = environ.get('SUPPORT_GROUP', '-1002033580386')
+#Link of support chat
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/movie_bot_support')
+# for chatGPT
+OPENAI_API = environ.get('OPENAI_API', '')
 # Bot settings
 WEBHOOK = bool(environ.get("WEBHOOK", True)) # for web support on/off
 DISE = (environ.get('DISE','https://graph.org/file/d7cd3555848c13b2ff1fe.jpg https://graph.org/file/93a37346e33c834b6f072.jpg https://graph.org/file/164bc7dbb38e8fbbd78db.jpg https://graph.org/file/8af0bb777756c113086bf.jpg https://graph.org/file/a01669dd9aad20ec3e8d1.jpg https://graph.org/file/8075b4ad6419edf5ea550.jpg')).split()
